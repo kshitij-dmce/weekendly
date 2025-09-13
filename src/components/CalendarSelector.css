@@ -1,0 +1,31 @@
+
+.calendar-selector {
+  margin-bottom: 36px;
+}
+.calendar-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.calendar-btn-row {
+  display: flex;
+  gap: 14px;
+}
+.calendar-btn {
+  background: #fff;
+  border: 2px solid #2277ee;
+  padding: 8px 22px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, border 0.2s;
+}
+.calendar-btn:hover {
+  background: #e0efff;
+  border-color: #0b4d91;
+}
+.calendar-selected {
+  margin-top: 8px;
+  color: #555;
+  font-size: 0.95rem;
+}
